@@ -6,6 +6,7 @@ public class Ejemplo03 {
 
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         String nombre;
         String posicion;
         int edad;
