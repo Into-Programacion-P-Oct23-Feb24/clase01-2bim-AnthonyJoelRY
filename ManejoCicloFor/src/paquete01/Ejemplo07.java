@@ -26,9 +26,11 @@ public class Ejemplo07 {
                         i,
                         contador,
                         operacion);
+                //almacena un multiplicacion
                 // System.out.printf("%d x %d = %d\n", i, contador, operacion);
             }
             mensajeFinal = String.format("%s\n",mensajeFinal);
+            //evita que se produsca un salto de linea inecesario 
             // System.out.println("\n");
         } // termina for 01
 
